@@ -1,11 +1,15 @@
 html {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: beige;
 }
 
 header {
-  background-color: aquamarine;
+  background-color: lightblue;
+  text-align: center;
+  font-size: large;
 }
 
 footer {
   background-color: blanchedalmond;
+  text-align: center;
 }

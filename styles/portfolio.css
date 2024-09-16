@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(254, 225, 230);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(254, 225, 230);
+    padding: 20px;
+    font-size: xx-large
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+.image-row {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Space between image-paragraphs */
+    padding: 20px;
+    flex-wrap: wrap; /* Allow wrapping to the next line if necessary */
+}
+
+.image-paragraph {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically within each paragraph */
+    align-items: center; /* Center items horizontally */
+    gap: 10px; /* Space between image and text */
+    max-width: 300px; /* Adjust to fit your design */
+    width: 100%;
+}
+
+.image {
+    max-width: 100%; /* Ensure images fit within their container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+footer {
+    background-color: rgb(254, 225, 230);
+    text-align: center;
+    padding: 10px;
+}
